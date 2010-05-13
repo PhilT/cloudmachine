@@ -1,0 +1,102 @@
+---
+xmlns: http://ec2.amazonaws.com/doc/2009-11-30/
+requestId: 85975fb7-823c-4ea1-a9df-10e16b6894f5
+reservationSet:
+  item:
+  - reservationId: r-2ad7ba42
+    ownerId: "631763075463"
+    groupSet:
+      item:
+      - groupId: builds
+    instancesSet:
+      item:
+      - instanceId: i-aa2a38c2
+        imageId: ami-55739e3c
+        instanceState:
+          code: "16"
+          name: running
+        privateDnsName: domU-12-31-39-09-B5-02.compute-1.internal
+        dnsName: ec2-174-129-180-37.compute-1.amazonaws.com
+        reason:
+        keyName: builds
+        amiLaunchIndex: "0"
+        productCodes:
+        instanceType: m1.large
+        launchTime: "2010-02-04T14:09:59.000Z"
+        placement:
+          availabilityZone: us-east-1b
+        kernelId: aki-fd15f694
+        ramdiskId: ari-7b739e12
+        monitoring:
+          state: enabled
+        privateIpAddress: 10.210.186.240
+        ipAddress: 174.129.180.37
+        architecture: x86_64
+        rootDeviceType: instance-store
+        blockDeviceMapping:
+    requesterId: 058890971305
+  - reservationId: r-1657417e
+    ownerId: "631763075463"
+    groupSet:
+      item:
+      - groupId: default
+    instancesSet:
+      item:
+      - instanceId: i-4769022c
+        imageId: ami-19a34270
+        instanceState:
+          code: "16"
+          name: running
+        privateDnsName: domU-12-31-39-07-B9-36.compute-1.internal
+        dnsName: ec2-184-73-28-169.compute-1.amazonaws.com
+        reason:
+        keyName: default
+        amiLaunchIndex: "0"
+        productCodes:
+        instanceType: m1.small
+        launchTime: "2010-04-20T15:46:55.000Z"
+        placement:
+          availabilityZone: us-east-1b
+        kernelId: aki-a71cf9ce
+        ramdiskId: ari-a51cf9cc
+        monitoring:
+          state: disabled
+        privateIpAddress: 10.209.186.196
+        ipAddress: 184.73.28.169
+        architecture: i386
+        rootDeviceType: instance-store
+        blockDeviceMapping:
+    requesterId: 058890971305
+  - reservationId: r-b64d5cde
+    ownerId: "631763075463"
+    groupSet:
+      item:
+      - groupId: default
+    instancesSet:
+      item:
+      - instanceId: i-05eb816e
+        imageId: ami-bb709dd2
+        instanceState:
+          code: "16"
+          name: running
+        privateDnsName: domU-12-31-39-04-F2-57.compute-1.internal
+        dnsName: ec2-184-73-121-35.compute-1.amazonaws.com
+        reason:
+        keyName: default
+        amiLaunchIndex: "0"
+        productCodes:
+        instanceType: m1.small
+        launchTime: "2010-04-21T09:42:50.000Z"
+        placement:
+          availabilityZone: us-east-1b
+        kernelId: aki-5f15f636
+        ramdiskId: ari-d5709dbc
+        monitoring:
+          state: disabled
+        privateIpAddress: 10.240.245.161
+        ipAddress: 184.73.121.35
+        architecture: i386
+        rootDeviceType: instance-store
+        blockDeviceMapping:
+    requesterId: 058890971305
+
