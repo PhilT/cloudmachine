@@ -1,4 +1,4 @@
-Ec2view::Application.configure do
+CloudMachine::Application.configure do
   # Settings specified here will take precedence over those in config/environment.rb
 
   # In the development environment your application's code is reloaded on
@@ -17,3 +17,4 @@ Ec2view::Application.configure do
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
 end
+

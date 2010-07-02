@@ -1,4 +1,4 @@
-Ec2view::Application.configure do
+CloudMachine::Application.configure do
   # Settings specified here will take precedence over those in config/environment.rb
 
   # The test environment is used exclusively to run your application's
@@ -30,3 +30,4 @@ Ec2view::Application.configure do
   # like if you have constraints or database-specific column types
   # config.active_record.schema_format = :sql
 end
+
