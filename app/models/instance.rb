@@ -12,10 +12,6 @@ class Instance < ActiveRecord::Base
     instances
   end
 
-  def initialize
-    puts 'ahhhh!'
-  end
-
   def self.count
     EC2.describe_instances['reservationSet']['item'].size
   end
